@@ -27,4 +27,5 @@ a demo using Spring Boot, mysql, Java, SQL and  Intelli IDEA to implement RESTfu
 "http://localhost:8080//deleteByRunningId/x" where x is the runningId(between 1 and 14)
 
 # 3 source files(Spring Boot, mysql, Java, SQL, Intelli IDEA)
-all the source files are located in "/source", please open then using Intelli IDEA
+all the source files are located in "/source", please open them using Intelli IDEA
+
