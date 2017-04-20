@@ -1,0 +1,90 @@
+
+
+//-------------------RunningUser Data-------------------------------------------
+INSERT INTO RunningUser 
+(userName, userAddress)
+VALUES
+("Runner A", "14, A Street, District A, NSW, AU");
+
+INSERT INTO RunningUser 
+(userName, userAddress)
+VALUES
+("Runner B", "12, C Street, District A, NY, USA");
+
+//-------------------RunningInformation Data-------------------------------------------
+INSERT INTO RunningInformation 
+(latitude, runningDistance, totalRunningTime, heartRate, Timestamp, userId)
+VALUES
+(50.8, 1200, 130, 60, NOW(), 1);
+
+INSERT INTO RunningInformation 
+(latitude, runningDistance, totalRunningTime, heartRate, Timestamp, userId)
+VALUES
+(50.8, 1200, 130, 60, NOW(), 1);
+
+INSERT INTO RunningInformation 
+(latitude, runningDistance, totalRunningTime, heartRate, Timestamp, userId)
+VALUES
+(50.8, 1200, 130, 60, NOW(), 1);
+
+INSERT INTO RunningInformation 
+(latitude, runningDistance, totalRunningTime, heartRate, Timestamp, userId)
+VALUES
+(50.8, 1200, 130, 60, NOW(), 1);
+
+INSERT INTO RunningInformation 
+(latitude, runningDistance, totalRunningTime, heartRate, Timestamp, userId)
+VALUES
+(50.8, 1200, 130, 60, NOW(), 1);
+
+INSERT INTO RunningInformation 
+(latitude, runningDistance, totalRunningTime, heartRate, Timestamp, userId)
+VALUES
+(50.8, 1200, 130, 60, NOW(), 1);
+
+INSERT INTO RunningInformation 
+(latitude, runningDistance, totalRunningTime, heartRate, Timestamp, userId)
+VALUES
+(50.8, 1200, 130, 60, NOW(), 2);
+
+INSERT INTO RunningInformation 
+(latitude, runningDistance, totalRunningTime, heartRate, Timestamp, userId)
+VALUES
+(50.8, 1200, 130, 60, NOW(), 2);
+
+INSERT INTO RunningInformation 
+(latitude, runningDistance, totalRunningTime, heartRate, Timestamp, userId)
+VALUES
+(50.8, 1200, 130, 60, NOW(), 2);
+
+INSERT INTO RunningInformation 
+(latitude, runningDistance, totalRunningTime, heartRate, Timestamp, userId)
+VALUES
+(50.8, 1200, 130, 60, NOW(), 2);
+
+INSERT INTO RunningInformation 
+(latitude, runningDistance, totalRunningTime, heartRate, Timestamp, userId)
+VALUES
+(50.8, 1200, 130, 60, NOW(), 2);
+
+INSERT INTO RunningInformation 
+(latitude, runningDistance, totalRunningTime, heartRate, Timestamp, userId)
+VALUES
+(50.8, 1200, 130, 60, NOW(), 2);
+
+INSERT INTO RunningInformation 
+(latitude, runningDistance, totalRunningTime, heartRate, Timestamp, userId)
+VALUES
+(50.8, 1200, 130, 60, NOW(), 2);
+
+INSERT INTO RunningInformation 
+(latitude, runningDistance, totalRunningTime, heartRate, Timestamp, userId)
+VALUES
+(50.8, 1200, 130, 60, NOW(), 2);
+
+//-----------set random heartRate between 60 and 200-------
+
+UPDATE RunningInformation 
+SET heartRate = (FLOOR(60 + (RAND() * 141)))
+WHERE 1 = 1;
+

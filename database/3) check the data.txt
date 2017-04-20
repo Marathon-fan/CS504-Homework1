@@ -1,0 +1,21 @@
+
+
+//-------------------------------------------------------------------
+
+// launch mysql 
+1)
+cd ~/workspace/RunningInformationAnalysisServiceTA
+2) docker-compose up
+
+// log on to mysql
+mysql --host=127.0.0.1 --port=3306 --user=root --password=root
+
+//
+use running_information_analysis_db
+
+// 
+select * from RunningUser
+
+//
+select * from RunningInformation
+

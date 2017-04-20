@@ -1,0 +1,23 @@
+//-------------------------------------------------------------------
+
+CREATE TABLE RunningUser(
+userId INT NOT NULL AUTO_INCREMENT, 
+userName VARCHAR(256),
+userAddress VARCHAR(256),
+PRIMARY KEY ( userId )
+);
+
+CREATE TABLE RunningInformation(
+runningId BIGINT NOT NULL AUTO_INCREMENT, 
+latitude FLOAT,
+runningDistance INT,
+totalRunningTime INT,
+heartRate INT,
+Timestamp TIMESTAMP,
+userId INT, 
+PRIMARY KEY ( runningId ),
+FOREIGN KEY (userId) REFERENCES RunningUser(userId)
+);
+
+
+
