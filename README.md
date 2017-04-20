@@ -17,13 +17,14 @@ a demo using Spring Boot, mysql, Java, SQL and  Intelli IDEA to implement RESTfu
 
 ## 2.2 step 2 -- java -jar Running-Information-Analysis-Service-1.0.0.BUILD-SNAPSHOT.jar
 1) install java 8
-2) download Running-Information-Analysis-Service-1.0.0.BUILD-SNAPSHOT.jar
+2) download "/jar/Running-Information-Analysis-Service-1.0.0.BUILD-SNAPSHOT.jar"
 3) use "java -jar Running-Information-Analysis-Service-1.0.0.BUILD-SNAPSHOT.jar" to launch the programme
 
 ## 2.3 step 3 -- use browser to test REST APIs
-1) visit the following address to see data in Json format(all the data are in descendinging order of heartRate and each page show two pieces of data)
+1) visit the following address to see data in Json format(all the data are in descendinging order of heartRate and each page show two pieces of data)  
 "http://localhost:8080/findAllDisplayWithPage/x" where x is the page number(between 0 and 6)
-2) use the following address to delete data 
+2) use the following address to delete data  
 "http://localhost:8080//deleteByRunningId/x" where x is the runningId(between 1 and 14)
 
 # 3 source files(Spring Boot, mysql, Java, SQL, Intelli IDEA)
+all the source files are located in "/source", please open then using Intelli IDEA
