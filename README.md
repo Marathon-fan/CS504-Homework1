@@ -1,4 +1,4 @@
-# CS504-Homework1
+# RESTfulAPIs-FindDelResources-SpringBootMysql
 RESTful APIs using Spring Boot, mysql 
 
 # 1 introduction
